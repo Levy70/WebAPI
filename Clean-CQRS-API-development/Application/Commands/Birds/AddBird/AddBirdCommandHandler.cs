@@ -1,4 +1,4 @@
-﻿using Application.Commands.Birds; 
+﻿using Application.Commands.Birds;
 using Domain.Models;
 using Infrastructure.Database;
 using MediatR;
