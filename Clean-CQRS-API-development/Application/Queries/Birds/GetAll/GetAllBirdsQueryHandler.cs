@@ -5,7 +5,7 @@ using MediatR;
 
 namespace Application.Queries.Birds
 {
-      public class GetAllBirdsQueryHandler : IRequestHandler<GetAllBirdsQuery, List<Bird>>
+    public class GetAllBirdsQueryHandler : IRequestHandler<GetAllBirdsQuery, List<Bird>>
     {
         private readonly MockDatabase _mockDatabase;
 
